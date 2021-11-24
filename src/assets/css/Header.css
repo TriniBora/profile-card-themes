@@ -1,0 +1,30 @@
+.header {
+  background-color: rgba(244, 244, 255, 0.2);
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #fff;
+}
+
+.header input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+}
+
+.header .icon {
+  color: rgb(78, 204, 163);
+  font-size: 1rem;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.header .icon:hover {
+  transform: scale(1.2);
+  color: rgb(255, 38, 38);
+}

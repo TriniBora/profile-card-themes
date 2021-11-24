@@ -1,0 +1,42 @@
+.card-text {
+  padding: 1em 0.5em;
+  line-height: 135%;
+  color: rgb(200, 200, 200);
+}
+
+small {
+  color: rgb(160, 160, 160);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8em;
+}
+
+.social-media-item {
+  list-style-type: none;
+  padding: 0em 0.5em 0.3em;
+}
+
+.social-media-item .icon {
+  color: rgb(78, 204, 163);
+  font-size: 2rem;
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.2));
+}
+
+.social-media-item button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media-item .icon:hover {
+  color: rgb(255, 38, 38);
+  transform: scale(1.2);
+}
